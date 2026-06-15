@@ -10,18 +10,19 @@
 <body style="background-color: grey; color: aliceblue;">
     <div id="wrapper">
         <h1>Number Guessing Game</h1>
-        <p>Try and Guess rANDOM Number between 1 and 100.</p>
+        <p>Try and Guess Random Number between 1 and 100.</p>
         <p>You have 10 attempts to Guess the Right Number.</p>
         <br>
         <form class="form">
-            <label for="guessfield" id="guess">guess a number</label>
-            <input type="text" id="guessfield" class="guessfield">
-            <input type="submit" id="subt" value="Submit guess" class="guessfield">
+            <label for="guessField" id="guess">Guess a Number</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="Submit guess" class="guessField">
         </form>
 
         <div class="resultParas">
             <p>Previous Guesses: <span class="guesses"></span></p>
-            <p>Guesses Remaining: <span class="LastResult"></span></p>
+            <p>Guesses Remaining: <span class="lastResult"></span></p>
+            <p>Score: <span class="score">100</span></p>
             <p class="lowOrHi"></p>
         </div>
 
